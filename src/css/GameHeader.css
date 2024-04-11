@@ -1,0 +1,32 @@
+.gameHeader {
+    width: 100%;
+    height: 30rem;
+    background-image: url('/src/assets/game-hero.webp');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.game-logo {
+   width: 100%;
+}
+
+.game-logo img {
+    width: 35%;
+}
+
+.buy-game {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
